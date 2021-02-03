@@ -1,6 +1,6 @@
 # Patent Search Application
 
-# Live Application located at [patentsearch.vercel.app](patentsearch.vercel.app)
+# Live Application located at [patentsearch.vercel.app](https://patentsearch.vercel.app)
 
 ## Inspiration
 
