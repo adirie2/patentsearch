@@ -1,3 +1,21 @@
+# Patent Search Application
+
+## Inspiration
+
+Having had experience researching and looking into patents. I have realized that it would be nice to create a basic searching funtion which would allow users to search with patent numbers and reel/frame numbers to pull up assignments as well as PAIR data at the exact same time and the exact same place. This is very useful for Lawyers at corporations who want to verify the assignment history as well as the PAIR history in order to determine if the paperwork is in order before a sale.
+
+## Main Things Learned
+
+- Created two custom hooks to deal with API calls to the USPTO Patent Assignment and PAIR databases.
+- More practice with dynamic data output and displaying it with semantic UI.
+- Bypassing CORS issue with front end HTTP requests by hosting a Flask backend which would be the API that would be utilized with the PAIR database structure. Allowing my Frontend to then use that API as a reliable source of data.
+
+## Design Utilization
+
+Due to the ease of use of the hooks sytem, decided to implement the system with just functional based components and using useState and useEffect for the different behaviors needed when components need to be re-rendered.
+
+## UI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
